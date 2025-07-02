@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: white;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+ 
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: #111;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero .content {
+    max-width: 500px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero .btn {
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .image img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #1a1a1a;
+    text-align: center;
+  }
+  
+  .info-cards div h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .work {
+    padding: 40px;
+    background: #121212;
+  }
+  
+  .work h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .job {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .faq {
+    padding: 40px;
+    background: #1e1e1e;
+  }
+  
+  .faq h2 {
+    text-align: center;
+  }
+  
+  details {
+    margin-bottom: 1rem;
+    background: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact {
+    padding: 40px;
+    background: #111;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background: #2a2a2a;
+    color: white;
+  }
+  
+  .contact button {
+    padding: 10px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    padding: 20px;
+    background: #0a0a0a;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .download-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #f0f0f0;
+  }
+
+
+
+.section-top{
+    position: fixed;
+    width: 100%;
+}
+
+ header {
+      background: #111111;
+      color: #fff;
+      padding: 20px 50px;
+    
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
